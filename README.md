@@ -5,7 +5,7 @@ A simple reverse proxy which allows you to specify the target url via an environ
 ```bash
 docker run -it \
     -p 8080:80 -p 8081:81 \ 
-    -e DESTINATION_URL=https://www.google.com/ \
+    -e DESTINATION_URL=https://www.google.co.uk/ \
     -e PRESERVE_HOST=Off \
     .../apache-reverse-proxy:latest
 ```
